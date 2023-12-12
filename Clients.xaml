@@ -1,0 +1,19 @@
+﻿<Window x:Class="CarShopManager.Clients"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CarShopManager"
+        mc:Ignorable="d"
+        Title="Clients" Height="450" Width="800"
+        Loaded="Window_Loaded">
+
+    <Grid HorizontalAlignment="Center" Width="895">
+        <DataGrid Name="ClientsGrid" Margin="57,33,400,138" SelectionMode="Extended"/>
+        <Button Content="Delete" Click="delete_client" HorizontalAlignment="Left" Margin="517,35,0,0" VerticalAlignment="Top" Height="26" Width="325" RenderTransformOrigin="-0.007,0.602"/>
+        <Button Content="Update" Click="update_client" HorizontalAlignment="Left" Margin="517,77,0,0" VerticalAlignment="Top" Height="26" Width="325" RenderTransformOrigin="-0.007,0.602"/>
+        <Button Content="Refresh" Click="refresh" HorizontalAlignment="Left" Margin="57,321,0,0" VerticalAlignment="Top" Height="26" Width="343" RenderTransformOrigin="-0.007,0.602"/>
+        <Button Content="Insert" Click="insert_client" HorizontalAlignment="Left" Margin="517,119,0,0" VerticalAlignment="Top" Height="26" Width="325" RenderTransformOrigin="-0.007,0.602"/>
+        <Button Content="Switch To Cars" Click="switch_to_cars" HorizontalAlignment="Left" Margin="433,321,0,0" VerticalAlignment="Top" Height="26" Width="347" RenderTransformOrigin="-0.007,0.602"/>
+    </Grid>
+</Window>
